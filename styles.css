@@ -2,19 +2,18 @@ body {
     background-color: #141414;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0
 }
 
 .profile-card {
     background-color: #202020;
-    max-width: 350px;
-    margin: auto;
+    max-width: 400px;
     text-align: center;
-    margin-top: 15%;;
-    padding-top: 25px;
-    padding-bottom: 40px;
-    border-radius: 19px;
-    position: relative;
+    width: 100%;
 }
 
 .profile-img img{
@@ -22,6 +21,7 @@ body {
     height: 30%;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 50px;
 }
 
 .profile-details h1 {
@@ -60,4 +60,8 @@ body {
 
 .profile-card button:active {
     background-color: #d2f663;
+}
+
+.profile-links {
+    padding-bottom: 40px;
 }
